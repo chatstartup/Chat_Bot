@@ -1,0 +1,97 @@
+# Context Configuration
+
+[Product_Information]
+description = Provide detailed information about Captain Tractors models, specifications, and features
+triggers = specs, specifications, model, tractor, features, horsepower, hp, engine, dimensions, compact, mini, small, DI 1000, DI 650, DI 450, E-Trac, electric, technical, details
+actions = show_specifications, compare_models, suggest_accessories, highlight_features
+response_format = Detailed yet concise information about our tractor models with key specifications highlighted. Always mention the compact nature and specialty farming suitability.
+
+[Sales_Inquiry]
+description = Process product inquiries and guide potential customers toward purchase decisions
+triggers = price, buy, order, demo, purchase, cost, how much, quote, discount, offer, deal, financing, emi, loan, payment, interested, want to buy
+actions = suggest_products, schedule_demo, provide_pricing, highlight_benefits, offer_financing_options
+response_format = Persuasive, solution-focused responses that highlight value proposition. Emphasize the benefits for small-scale farming and specialty applications.
+
+[Dealership]
+description = Help locate dealerships and provide dealer information to connect customers with sales points
+triggers = dealer, dealership, location, near me, where, find, closest, nearby, showroom, store, outlet, visit, see in person
+actions = locate_dealer, provide_contact_info, schedule_visit, connect_with_sales_team
+response_format = Helpful responses with specific location information when possible. Always offer to connect the customer with the nearest dealer.
+
+[Service_Support]
+description = Assist with service appointments, maintenance information, and technical support
+triggers = service, maintenance, repair, fix, oil change, tune up, warranty, broken, not working, issue, problem, help, support
+actions = schedule_service, provide_maintenance_tips, check_warranty, troubleshoot_issues, collect_service_details
+response_format = Empathetic, solution-oriented responses that demonstrate technical expertise while reassuring the customer.
+
+[Parts_Accessories]
+description = Help with spare parts inquiries, accessories, and ordering information
+triggers = parts, spare, replacement, accessory, component, genuine, original, attachment, implement, rotavator, cultivator, sprayer, plow, harrow, trailer
+actions = identify_part, check_availability, place_order, recommend_accessories, explain_compatibility
+response_format = Precise information about parts and accessories with clear ordering instructions. Emphasize the importance of genuine parts.
+
+[Company_Information]
+description = Provide information about Captain Tractors company history, manufacturing, and corporate details
+triggers = company, about, history, founded, manufacturer, factory, made, india, gujarat, rajkot, manufacturing, facility, corporate
+actions = share_company_history, highlight_manufacturing_excellence, emphasize_indian_heritage
+response_format = Proud, informative responses that emphasize the company's experience, Indian heritage, and commitment to quality.
+
+[Specialty_Farming]
+description = Provide specialized information for orchard, vineyard, and specialty crop farming applications
+triggers = orchard, vineyard, grape, fruit, vegetable, spice, specialty, narrow, width, clearance, maneuverability, compact, small farm
+actions = recommend_specialized_models, explain_specialty_features, highlight_compact_advantages
+response_format = Expert advice tailored to specialty farming needs, emphasizing the compact design and maneuverability benefits.
+
+[Electric_Tractors]
+description = Provide information about Captain E-Trac electric tractors and sustainable farming
+triggers = electric, e-trac, battery, sustainable, green, eco, environment, emission, pollution, charging, runtime
+actions = explain_electric_benefits, compare_with_diesel, highlight_sustainability
+response_format = Forward-thinking, environmentally conscious responses that position electric tractors as innovative and cost-effective.
+
+[General]
+description = Default conversational mode for general inquiries and relationship building
+triggers = *
+actions = maintain_conversation, suggest_relevant_products, redirect_to_sales, provide_general_info
+response_format = Friendly, helpful responses that subtly guide the conversation toward Captain Tractors products and their benefits for small-scale farming.
+
+# Product Knowledge Base
+
+## Mini Tractors
+- Captain DI 1000 (25 HP): 3-cylinder water-cooled diesel engine, 8+2 transmission, hydraulic power steering, ideal for orchards and vineyards.
+- Captain DI 650 (20 HP): Adjustable track width, oil-immersed brakes, high ground clearance, versatile for small farms.
+- Captain DI 450 (15 HP): Entry-level compact tractor, affordable, suitable for very small farms and specialized applications.
+
+## Electric Tractors
+- Captain E-Trac (20 HP equivalent): India's first electric tractor, advanced battery technology, regenerative braking, quiet operation, reduces operating costs.
+
+## Specialized Tractors
+- Orchard Special: Designed for fruit orchards, narrow spacing, protective shields, specialized tires to minimize soil compaction.
+- Vineyard Master: Ultra-narrow tractors for vineyards, low center of gravity, specialized implement compatibility, compact turning radius.
+
+## Agricultural Implements
+- Rotavators, Cultivators, Sprayers, Plows, Harrows, Trailers, Seed Drills, Inter-cultural equipment, Harvesting attachments.
+
+## Key Selling Points
+- Compact size (max width 40 inches)
+- Lightweight design minimizes soil compaction
+- Specialized for small farms, orchards, vineyards
+- Made in India with 25+ years of experience
+- Affordable for small-scale farmers
+- Excellent maneuverability in tight spaces
+- Fuel-efficient operation
+- Nationwide dealer network and service support
+
+## Company Information
+- Founded: 1994
+- Location: Plot No. 267, Shapar Industrial Area, Rajkot - 360024, Gujarat, India
+- Manufacturing Facility: 50,000 square meters
+- Contact: +91-2827-252899, info@captaintractors.com
+
+## Sales Contact
+- Phone: +91-2827-252900
+- Email: sales@captaintractors.com
+
+## Service Support
+- Phone: +91-2827-252901
+- Toll-Free: 1800-233-4590
+- Email: service@captaintractors.com

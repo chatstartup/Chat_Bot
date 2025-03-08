@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: captain-tractors-chatbot
+Version: 0.1.0
+Requires-Python: >=3.8
+Requires-Dist: flask>=3.0.2
+Requires-Dist: groq>=0.18.0
+Requires-Dist: pinecone-client>=3.0.1
+Requires-Dist: pydantic>=2.5.3
+Requires-Dist: rich>=13.7.0
+Requires-Dist: markdown2>=2.4.12
+Requires-Dist: cachetools>=5.3.2
+Requires-Dist: tenacity>=8.2.3
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.5; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: black>=24.1.1; extra == "dev"
+Requires-Dist: flake8>=7.0.0; extra == "dev"
+Requires-Dist: mypy>=1.8.0; extra == "dev"
+Requires-Dist: pre-commit>=3.6.0; extra == "dev"
+Requires-Dist: httpx>=0.26.0; extra == "dev"
+Provides-Extra: azure
+Requires-Dist: azure-cognitiveservices-translation-text>=0.9.0; extra == "azure"
